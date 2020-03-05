@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.IntervalInput = new System.Windows.Forms.TextBox();
             this.StartButton = new System.Windows.Forms.Button();
             this.StopButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.PingTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // IntervalInput
@@ -50,7 +52,7 @@
             this.StartButton.Size = new System.Drawing.Size(140, 23);
             this.StartButton.TabIndex = 1;
             this.StartButton.Text = "Start";
-            this.StartButton.UseVisualStyleBackColor = true;
+            this.StartButton.UseVisualStyleBackColor = false;
             this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // StopButton
@@ -83,6 +85,10 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Fuck you Callum";
             // 
+            // PingTimer
+            // 
+            this.PingTimer.Tick += new System.EventHandler(this.PingTimer_Tick);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -108,5 +114,6 @@
         private System.Windows.Forms.Button StopButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer PingTimer;
     }
 }

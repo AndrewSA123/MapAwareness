@@ -7,3 +7,8 @@ C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.
 C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.pdb
 C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.exe
 C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.pdb
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\Interop.WMPLib.dll
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\Interop.WMPLib.dll
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.csproj.ResolveComReference.cache
