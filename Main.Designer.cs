@@ -35,6 +35,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.PingTimer = new System.Windows.Forms.Timer(this.components);
+            this.ScreenCapTimer = new System.Windows.Forms.Timer(this.components);
+            this.MapCaptureButton = new System.Windows.Forms.Button();
+            this.MapBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.MapBox)).BeginInit();
             this.SuspendLayout();
             // 
             // IntervalInput
@@ -89,11 +93,36 @@
             // 
             this.PingTimer.Tick += new System.EventHandler(this.PingTimer_Tick);
             // 
+            // ScreenCapTimer
+            // 
+            this.ScreenCapTimer.Tick += new System.EventHandler(this.ScreenCapTimer_Tick);
+            // 
+            // MapCaptureButton
+            // 
+            this.MapCaptureButton.Location = new System.Drawing.Point(12, 328);
+            this.MapCaptureButton.Name = "MapCaptureButton";
+            this.MapCaptureButton.Size = new System.Drawing.Size(140, 23);
+            this.MapCaptureButton.TabIndex = 5;
+            this.MapCaptureButton.Text = "Start Map Capture";
+            this.MapCaptureButton.UseVisualStyleBackColor = true;
+            this.MapCaptureButton.Click += new System.EventHandler(this.MapCaptureButton_Click);
+            // 
+            // MapBox
+            // 
+            this.MapBox.Location = new System.Drawing.Point(171, 97);
+            this.MapBox.Name = "MapBox";
+            this.MapBox.Size = new System.Drawing.Size(692, 521);
+            this.MapBox.TabIndex = 6;
+            this.MapBox.TabStop = false;
+            this.MapBox.Tag = "Test";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 651);
+            this.Controls.Add(this.MapBox);
+            this.Controls.Add(this.MapCaptureButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.StopButton);
@@ -102,6 +131,7 @@
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.MapBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +145,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer PingTimer;
+        private System.Windows.Forms.Timer ScreenCapTimer;
+        private System.Windows.Forms.Button MapCaptureButton;
+        private System.Windows.Forms.PictureBox MapBox;
     }
 }
