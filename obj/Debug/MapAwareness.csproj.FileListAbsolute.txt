@@ -1,0 +1,9 @@
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.csprojAssemblyReference.cache
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.Main.resources
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.Properties.Resources.resources
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.csproj.GenerateResource.cache
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.exe.config
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.exe
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.pdb
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.exe
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.pdb

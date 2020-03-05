@@ -21,5 +21,15 @@ namespace MapAwareness
         {
 
         }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StopButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
