@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Media;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,12 +19,13 @@ namespace MapAwareness
         WMPLib.WindowsMediaPlayer wplayer;
         Bitmap bitmap;
         Graphics g;
+        string outPutDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         public Main()
         {
             InitializeComponent();
             wplayer = new WMPLib.WindowsMediaPlayer();
-            wplayer.URL = @"C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\Assets\Sounds\Sound1.mp3";
+            wplayer.URL = Path.GetFullPath(@"C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\Assets\Sounds\Sound1.mp3");
             ScreenCapTimer.Enabled = true;
             ScreenCapTimer.Interval = 100;
             bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
