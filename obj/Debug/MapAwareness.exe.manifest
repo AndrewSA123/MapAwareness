@@ -61,19 +61,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/9BS4W40iP2OygO2moBDlCWKRqlgJDHIhqPmO9ZrV0E=</dsig:DigestValue>
+        <dsig:DigestValue>7tAgKRcdTBw8H+w/0XpDX3oHDgU3EAdInZN8JUzQZAo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MapAwareness.exe" size="11720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MapAwareness.exe" size="11208">
       <assemblyIdentity name="MapAwareness" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/psziQU3GBH0+WUU9n9zEBXVU7V9R2+9YnCO6YpWkS0=</dsig:DigestValue>
+        <dsig:DigestValue>ZItFmlhvGh/LOwhKwHkyh4khmMEHHMX9+DkWk4XxnUI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

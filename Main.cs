@@ -25,11 +25,11 @@ namespace MapAwareness
         {
             InitializeComponent();
             wplayer = new WMPLib.WindowsMediaPlayer();
-            wplayer.URL = Path.GetFullPath(@"C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\Assets\Sounds\Sound1.mp3");
-            ScreenCapTimer.Enabled = true;
-            ScreenCapTimer.Interval = 100;
-            bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
-            g = Graphics.FromImage(bitmap);
+            wplayer.URL = Path.GetFullPath(@"A:\Projects\MapAwareness\MapAwareness\Assets\Sounds\Sound1.mp3");
+            //ScreenCapTimer.Enabled = true;
+            //ScreenCapTimer.Interval = 100;
+            //bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+            //g = Graphics.FromImage(bitmap);
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -58,7 +58,8 @@ namespace MapAwareness
         private void StopButton_Click(object sender, EventArgs e)
         {
             PingTimer.Stop();
-            ScreenCapTimer.Stop();
+            label1.Text = 1.ToString();
+            //ScreenCapTimer.Stop();
         }
 
         private void PingTimer_Tick(object sender, EventArgs e)
@@ -69,13 +70,13 @@ namespace MapAwareness
 
         private void ScreenCapTimer_Tick(object sender, EventArgs e)
         {
-            g.CopyFromScreen(1620, 800, 0, 0, new Size(1000,1000));
-            MapBox.Image = bitmap;
+            //g.CopyFromScreen(1620, 800, 0, 0, new Size(1000,1000));
+            //MapBox.Image = bitmap;
         }
 
         private void MapCaptureButton_Click(object sender, EventArgs e)
         {
-            ScreenCapTimer.Start();
+            //ScreenCapTimer.Start();
         }
     }
 }
