@@ -12,3 +12,7 @@ C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\AxInterop.WMP
 C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\Interop.WMPLib.dll
 C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.csproj.ResolveComReference.cache
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.exe.manifest
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\bin\Debug\MapAwareness.application
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.exe.manifest
+C:\Users\ukknoand\source\repos\MapAwareness\MapAwareness\obj\Debug\MapAwareness.application
